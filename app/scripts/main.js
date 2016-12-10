@@ -19,25 +19,26 @@ class Name extends React.Component {
     );
   }
 };
+
 // component - React.createClass
-const NameClass = React.createClass({
-  getInitialState(){
-    return {
-      name: "Travis!",
-    };
-  },
-  render(){
-    return (  
-      <div>
-        <h1>
-          Hi, my name is {this.state.name}
-        </h1>
-      </div>
-    );
-  },
-});
+// const NameClass = React.createClass({
+//   getInitialState(){
+//     return {
+//       name: "Travis!",
+//     };
+//   },
+//   render(){
+//     return (  
+//       <div>
+//         <h1>
+//           Hi, my name is {this.state.name}
+//         </h1>
+//       </div>
+//     );
+//   },
+// });
 
 // dom
 ReactDOM.render(  
-  <NameClass />, page
+  <Name />, page
 );
